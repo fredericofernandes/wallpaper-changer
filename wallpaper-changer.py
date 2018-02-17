@@ -6,7 +6,7 @@ def set_wallpaper(file):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('wallpaper', help='wallpaper image file')
+    parser.add_argument('file', help='wallpaper image file')
     args = parser.parse_args()
     set_wallpaper(args.wallpaper)
 
